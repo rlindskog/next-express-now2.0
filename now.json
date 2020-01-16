@@ -1,0 +1,6 @@
+{
+  "name": "next-express",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "api/index.ts" }
+  ]
+}
